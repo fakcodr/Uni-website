@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uni</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+        integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <!-- navigation -->
+    <nav>
+        <img src="images/logo1.png" alt="">
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <img id="menu-btn" src="images/menu.png" alt="">
+        </div>
+    </nav>
+
+    <!-- Home -->
+
+    <section id="about-home">
+        <h2>About Uni /</h2>
+
+    </section>
+
+    <section id="about-container">
+        <div class="about-img">
+            <img src="images/a.png" alt="">
+        </div>
+
+        <div class="about-text">
+            <h2>Welcome to Uni, Enhance your skills with best Online Courses</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit corrupti minus blanditiis nisi
+                placeat, magnam quisquam natus provident, nesciunt molestias, eius inventore quia doloremque sed
+                voluptate tempora. Qui temporibus delectus repellendus praesentium dignissimos reiciendis sed sunt error
+                tempora odit harum non doloremque alias quibusdam, recusandae aut nihil quod minus molestias!</p>
+            <div class="about-fe">
+                <img src="images/fe1.png" alt="">
+                <div class="fe-text">
+                    <h5>400+ Courses</h5>
+                    <p>You can start and finish one of these popular courses in under our sites</p>
+                </div>
+            </div>
+            <div class="about-fe">
+                <img src="images/fe2.png" alt="">
+                <div class="fe-text">
+                    <h5>Lifetime Access</h5>
+                    <p>You can start and finish one of these popular courses in under our sites</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- features -->
+
+    <section id="features">
+        <h1>Awesome features</h1>
+        <p>Rplenish man have things gathering lights yeilding shall you </p>
+        <div class="fea-base">
+            <div class="fea-box">
+                <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+
+                <h3>Scholarship Facility</h3>
+                <p>One make creepeth, man bearing theira firmant won't great heaven</p>
+            </div>
+            <div class="fea-box">
+                <i class="fa fa-certificate" aria-hidden="true"></i>
+
+                <h3>Dell Online Courses</h3>
+                <p>One make creepeth, man bearing theira firmant won't great heaven</p>
+            </div>
+            <div class="fea-box">
+                <i class="fa fa-award" aria-hidden="true"></i>
+
+                <h3>Global certificate</h3>
+                <p>One make creepeth, man bearing theira firmant won't great heaven</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="trust">
+        <h1>Trusted By</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+        <div class="trust-img">
+            <img src="images/trust (1).png" alt="">
+            <img src="images/trust (2).png" alt="">
+            <img src="images/trust (3).png" alt="">
+            <img src="images/trust (4).png" alt="">
+            <img src="images/trust (5).png" alt="">
+            <img src="images/trust (6).png" alt="">
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Services</li>
+        </div>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Services</li>
+        </div>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Services</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p>You can trust us. we only send promo offers, </p>
+            <div class="subscribe">
+                <input type="text" placeholder="Your Email address">
+                <a href="#" class="yellow">SUBSCRIBE</a>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright 02021 All rights reserved | This template is made by Uni</p>
+            <div class="pro-links">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-linkedin-in"></i>
+            </div>
+        </div>
+    </footer>
+    <script>
+        $('#menu-btn').click(function () {
+            $('nav .navigation ul').addClass('active')
+        });
+        $('#menu-close').click(function () {
+            $('nav .navigation ul').removeClass('active')
+        });
+    </script>
+
+</body>
+
+</html>
